@@ -64,11 +64,12 @@ Du benötigst noch:
 * GIT
 * Python3
 * PIP
+* docker-compose&#x20;
 
 Unter Ubuntu kannst Du diese Pakete mit folgendem Befehl installieren:
 
 ```bash
-sudo apt install python3 python3-pip git
+sudo apt install python3 python3-pip git docker-compose
 ```
 
 Um die Karten in Minetest zu generieren, das heißt anhand der Koordinatien aus OpenStreetMap zu exportieren und eine entsprechende Vorlage in Minetest zu generieren werden zusätzlich folgende Python-Module benötigt:
